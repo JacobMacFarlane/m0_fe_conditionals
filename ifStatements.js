@@ -63,6 +63,9 @@ if(numQuarters > 0){console.log("I have enough money for a gumball");
 // Experiment with manipulating the value held within both variables
 // to make sure all above conditions output what you expect.
 
-var cupsOfFlour = 1;
-var hasSauce = true;
+var cupsOfFlour = 5;
+var hasSauce = false;
+
+if (cupsOfFlour >= 2 && hasSauce === true){console.log("I can make pizza")}
+else{console.log("I cannot make pizza")}
 

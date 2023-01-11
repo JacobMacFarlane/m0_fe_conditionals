@@ -46,7 +46,8 @@ var numQuarters = 0
 
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
-
+if(numQuarters > 0){console.log("I have enough money for a gumball");
+} else {console.log("I dont have enought money for a gumball")}
 
 // #####################
 // Using the variables defined below, write code that will tell you

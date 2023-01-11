@@ -100,15 +100,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovestoPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovestoPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER:It just came out to True and 1, there was no conditon set to have 1 equal puppy. Given we know a one 
+// year old dog is a puppy the program wouldnt know that
